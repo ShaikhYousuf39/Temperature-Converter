@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(68, 67, 67);
+    border-radius: 5px;
+}
+.container h1{
+    font-size: 32px;
+    margin: 30px;
+}
+.container label{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+select{
+    padding: 5px;
+    border:none;
+    background-color: rgb(83, 82, 82);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+p{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform:uppercase;
+}
